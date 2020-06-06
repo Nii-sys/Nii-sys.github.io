@@ -1,1 +1,26 @@
-yo
+<!DOCTYPE html>
+<html>
+<body>
+	
+<button onclick="myFunction()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+function makeid(length) {
+	var result           = '';
+	var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+	var charactersLength = characters.length;
+		for ( var i = 0; i < length; i++ ) {
+			result += characters.charAt(Math.floor(Math.random() * charactersLength));
+		}
+	return result;
+	}
+function myFunction() {
+  window.location.replace("http://ouo.io/qs/TNsclPJi?s=" + "nii-sys.github.io/key.php?key=\"" + makeid(15) + "\"");
+}
+
+</script>
+
+</body>
+</html>
